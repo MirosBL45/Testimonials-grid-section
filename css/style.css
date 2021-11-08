@@ -15,9 +15,23 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background: #ecf2f8;
   font-size: 13px;
+}
+
+.only-sr {
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 
 .main {
