@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+    .container {
+        margin: 30px auto;
+    }
+
+    .main {
+        grid-template-areas: 'danielc'
+        'walterj'
+        'janeth'
+        'patrica'
+        'kiraw';
+    }
+}

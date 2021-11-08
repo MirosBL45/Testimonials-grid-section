@@ -1,0 +1,138 @@
+#daki {
+	animation: leviulaz 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes leviulaz {
+	0% {
+		left: -200px;
+		top: -200px;
+		background: greenyellow;
+	}
+	75% {
+		left: 8px;
+		top: 8px;
+		background: red;
+	}
+	100% {
+		left: 0;
+		top: 0;
+	}
+}
+
+#waki {
+	animation: gornjiulaz 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes gornjiulaz {
+	0% {
+		top: -200px;
+		background: silver;
+	}
+	75% {
+		top: 8px;
+		background: gray;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+#kiki {
+	animation: desniiulaz 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes desniiulaz {
+	0% {
+		right: -200px;
+		background: rgba(19, 16, 16, 0.336);
+	}
+	75% {
+		right: 8px;
+		background: rgba(245, 245, 245, 0.589);
+	}
+	100% {
+		right: 0;
+	}
+}
+
+#jaki {
+	animation: dleviulaz 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes dleviulaz {
+	0% {
+		left: -200px;
+		bottom: -200px;
+		background: rgba(19, 16, 16, 0.336);
+	}
+	75% {
+		left: 8px;
+		bottom: 8px;
+	}
+	100% {
+		left: 0;
+		bottom: 0;
+	}
+}
+
+#paki {
+	animation: donjiiulaz 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes donjiiulaz {
+	0% {
+		bottom: -200px;
+		background: whitesmoke;
+	}
+	75% {
+		bottom: 8px;
+		background: black;
+	}
+	100% {
+		bottom: 0;
+	}
+}
+
+#footero {
+	position: relative;
+	animation: leftentrance 3s;
+	animation-fill-mode: forwards;
+	// animation-delay: 3s;
+}
+
+@keyframes leftentrance {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+	/*0% {
+		left: -500px;
+	}
+
+	100% {
+		left: 0;
+	}*/
+}
+
+//  .main {
+//      position: relative;
+//      animation: leviulaz 2s;
+//      animation-fill-mode: forwards;
+//  }
+
+// @keyframes leviulaz {
+//     0% {grid-gap: 200px;}
+//     75% {grid-gap: 5px;}
+//     100% {grid-gap: 20px;}
+// }
